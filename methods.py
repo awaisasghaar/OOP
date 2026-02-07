@@ -12,6 +12,6 @@ class Person:
         print(f"{self.name} has an email address ({gmail_id_2})")
 
 # Creates the object of Person class and calls the method
-a = Person("Awais", 22, "awaisasghaar13@gmail.com")
-a.student()
-a.contact_info('awaisasghaar331@gmail.com')
+my_intro = Person("Awais", 22, "awaisasghaar13@gmail.com")
+my_intro.student()
+my_intro.contact_info('awaisasghaar331@gmail.com')
