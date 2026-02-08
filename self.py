@@ -9,5 +9,5 @@ class Person:
         print(f"{self.name} CGPA has increased to {self.CGPA}")
 
 my_cgpa = Person('Awais', 'Computer Science', 2.6)
-my_cgpa.study(.3)
+my_cgpa.study(.23)
 
