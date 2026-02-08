@@ -1,9 +1,7 @@
 # OOP
 Object Oriented Programming using Python
 
-# OOP
-Object Oriented Programming using Python
-Introduction to Classes
+# Introduction to Classes
 
 Imagine you are a student trying to store information by individual variables
 
@@ -21,7 +19,9 @@ This approach has a few problems:
 2. Messy code: It's hard to keep track of all the hero attributes and their values.
 3. Scalability: What if you need to create 50 different heroes? Your code would become unmanageable very quickly.
 
-A class is a blueprint for creating objects. Here is the basic syntax for defining a class in Python:
+A class is a blueprint for creating objects. 
+
+# Here is the basic syntax for defining a class in Python:
 
 class Person:
     def __init__(self, name, age, degree):
