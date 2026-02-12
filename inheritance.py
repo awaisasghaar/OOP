@@ -19,6 +19,7 @@ class Student(Person):
 
     def study(self):
         print(f'He is a {self.subject} student and currently in {self.semester} semester')
+        
 
 if __name__ == '__main__' :
     my_intro = Student('\nAwais', 22, 2.8, 'Computer sciecne', '6th') # Object
