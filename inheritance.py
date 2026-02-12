@@ -9,7 +9,7 @@ class Person:
     def intro(self):
         print(f'{self.name} is {self.age}-years-old and got {self.cgpa} cgpa')
 
-# Child class: Student
+# Child class
 class Student(Person):
     def __init__(self, name, age, cgpa, subject, semester):
 
@@ -19,7 +19,7 @@ class Student(Person):
 
     def study(self):
         print(f'He is a {self.subject} student and currently in {self.semester} semester')
-        
+
 
 if __name__ == '__main__' :
     my_intro = Student('\nAwais', 22, 2.8, 'Computer sciecne', '6th') # Object
