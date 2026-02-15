@@ -1,6 +1,7 @@
 # Object-Oriented Programming using Python
 Object-oriented programming is also known as OOP, is a programming style
-in which developers treat everything in their code like real-world object.
+in which developers treat everything in their code like 
+real-world object.
 
 Object-oriented programming has four key priciples that help you to
 organize and managed code effectively. They are
