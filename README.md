@@ -8,7 +8,7 @@ organize and managed code effectively. They are
 
  **Encapsulation,**
  **Inheritance and its types,**
- **Polymorphism,**
+ **Polymorphism and**
  **Abstraction.**
 
 # Class
