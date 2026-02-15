@@ -5,10 +5,10 @@ in which developers treat everything in their code like real-world object.
 Object-oriented programming has four key priciples that help you to
 organize and managed code effectively. They are
 
-# 1. Encapsulation
-# 2. Inheritance and its types
-# 3. Polymorphism
-# 4. Abstraction
+ **1. Encapsulation**
+ **2. Inheritance and its types**
+ **3. Polymorphism**
+ **4. Abstraction**
 
 # Class
 
