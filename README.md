@@ -11,6 +11,7 @@ organize and managed code effectively. They are
 # 4. Abstraction
 
 # Class
+
 A class is a blueprint for creating objects, Every single object created from class has 
 attributes that define data and methods that define behaviors of the objects.
 
