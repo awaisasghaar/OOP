@@ -23,5 +23,6 @@ With encapsulation, you can hide the internal state of the object behind a simpl
 
 # Getters and Setters
 
-Getters and setters are methods that let you control how the attributes of a class are accessed and modified. With getters you retrieve a value, and with setters you set a value.
+Getters and Setters are methods that let you control how the attributes of a class are accessed and modified.
+With **Getters** you **retrieve** a value, and with **Setters** you **set a value**.
 
