@@ -29,7 +29,7 @@ if __name__ == '__main__':
 
        # Delete the radius
        # This calls the deleter
-       del cal_circle._radius 
+       del cal_circle.radius 
        print('Radius deleted ')
 
     #    cal_circle.radius = 7
