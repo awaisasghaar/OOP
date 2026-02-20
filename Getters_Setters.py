@@ -16,7 +16,7 @@ class Circle():
     
     # Deleter
     @radius.deleter
-    def radius(self):
+    def radius(self): # A deleter to delete the radius
         print("Deleting radius")
         del self._radius
 
