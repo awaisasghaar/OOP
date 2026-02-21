@@ -1,5 +1,6 @@
 from abc import ABC, abstractmethod
 
+'''We will impelement polymorphism by using Inheritance'''
 
 class shapes:
     @abstractmethod
