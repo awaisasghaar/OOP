@@ -38,5 +38,5 @@ if __name__ == '__main__':
    my_intro = info('Awais', 'Virtual University', '22-years-old')
 
    my_intro.intro() # Parent method
-   my_intro.study() # Child method
+   my_intro.study() # Parent method
    my_intro.edu_info() # child method
