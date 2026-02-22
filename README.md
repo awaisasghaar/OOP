@@ -27,3 +27,9 @@ With encapsulation, you can **hide the internal state of the object** behind a s
 
 Getters and Setters are methods that let you control how the attributes of a class are accessed and modified.
 With **Getters** you **retrieve** a value, and with **Setters** you **set a value**.
+
+# Inheritance
+
+Inheritance is a fundamental concept in Object-Oriented Programming (OOP)
+that allows class (child or derived class) to inherit attributes and methods 
+from another class(parent or base class) 
