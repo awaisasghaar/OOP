@@ -1,5 +1,4 @@
 # OOP
-Object Oriented Programming using Python
 
 # Object-Oriented Programming using Python
 Object-oriented programming is also known as **OOP**, is a programming style
@@ -31,5 +30,27 @@ With **Getters** you **retrieve** a value, and with **Setters** you **set a valu
 # Inheritance
 
 **Inheritance** is a fundamental concept in **Object-Oriented Programming (OOP)**
-that allows class **(child or derived class)** to inherit attributes and methods 
-from another class **(parent or base class)**
+that allows class **(child or derived class)** to inherit **attributes and methods** 
+from another class **(parent or base class)**.
+
+**super Function() is used to call parent class's methods**. **It is commonly
+used in the child class's** **__init__** **method to initialize inherited attributes**.
+
+# Types of Inheritance
+
+**Single Inheritance, Multiple Inheritance, Multilevel Inheritance**
+
+# 1. Single Inheritance
+
+In single Inheritance a **child class inherits from just one parent class**
+
+# 2. Multiple Inheritance
+
+In Multiple Inheritance a **child class can inherite** from **more than one** **parent class**
+
+# Multilevel Inheritance
+
+In Multilevel Inheritance a class is **derived** from **another derived** class **(like a chain)**
+
+
+
