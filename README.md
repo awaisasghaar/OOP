@@ -52,5 +52,14 @@ In Multiple Inheritance a **child class can inherite** from **more than one** **
 
 In Multilevel Inheritance a class is **derived** from **another derived** class **(like a chain)**
 
+# Polymorphism
+
+Polymorphism means **many forms**. **It refers to the ability of an entity(like function or object) to perform different actions based on the context.**
+
+**In Python polymorphism allows same method, function or operator** to behave 
+differently depending on the object it is working with.
+
+
+
 
 
