@@ -59,6 +59,13 @@ Polymorphism means **many forms**. **It refers to the ability of an entity(like 
 **In Python polymorphism allows same method, function or operator** to behave 
 differently depending on the object it is working with.
 
+**Method overloading in Python** is a type of **compile-time Polymorphism** using
+which we can define two or more methods in the same class with same name but
+with a different parameter list.
+We cannot perform method overloading in Python Programming language as everything in Python is considered as an object.
+In Python we can make our code have the same features as overloaded functions
+by defining a method in such way that there exist more than one way to call it.
+
 
 
 
