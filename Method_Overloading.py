@@ -7,8 +7,8 @@ class A:
 
     def task(self, *args):
         result = 1
-        for num in args:
-            result *= num
+        for int in args:
+            result *= int
         return result
     
 if __name__ == '__main__':
