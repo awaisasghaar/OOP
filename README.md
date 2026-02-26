@@ -14,16 +14,20 @@ organize and managed code effectively. They are
  **Abstraction.**
 
 # Class
-
 A class is a **blueprint** for creating **objects**, Every single object created from class has **attributes** that define data and methods that define behaviors of the objects.
 
-# Encapsulation
+# Class method and static method
+**Class method** is method that receives the class itself as the first
+argument (cls). It can access and modify class variables
 
+**Static method** receives nothing automatically neither self nor cls, Just a 
+utility function grouped inside a class
+
+# Encapsulation
 Encapsulation is the bundling of the attributes and methods of an object into a single unit, the class.
 With encapsulation, you can **hide the internal state of the object** behind a simple set of **public methods and attributes** that act like doors. Behind those doors are **private attributes and methods** that control how the data changes and who can see it.
 
 # Getters and Setters
-
 Getters and Setters are methods that let you control how the attributes of a class are accessed and modified.
 With **Getters** you **retrieve** a value, and with **Setters** you **set a value**.
 
