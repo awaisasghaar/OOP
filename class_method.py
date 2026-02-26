@@ -24,5 +24,9 @@ if __name__ == '__main__':
 
 #    calls the instance method 
    print(emp_1.call())
-   
+
+# Output below
+
+# Github Profile
+# Hey! my name is Awais I am Python Developer
 
