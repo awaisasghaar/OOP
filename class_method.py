@@ -1,5 +1,5 @@
 class Employee:
-    profile = None
+    profile = '\nLinkedIn'
 
     def __init__(self, name, role):
         self.name = name
@@ -17,16 +17,19 @@ class Employee:
 if __name__ == '__main__':
 # Creating the object
    emp_1 = Employee('Awais', 'Python Developer')
+
+   print(Employee.profile)
    
 #    calls the classmethod
-   emp_1.portfolio('Github Profile')
-   print(emp_1.portfolio('Github Profile'))
+   emp_1.portfolio('Github')
+   print(emp_1.portfolio('Github'))
 
 #    calls the instance method 
    print(emp_1.call())
 
 # Output below
 
-# Github Profile
+# LinkedIn
+# Github 
 # Hey! my name is Awais I am Python Developer
 
