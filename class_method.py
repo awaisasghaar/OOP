@@ -1,5 +1,5 @@
 class Employee:
-    resume = None
+    profile = None
 
     def __init__(self, name, role):
         self.name = name
@@ -10,17 +10,19 @@ class Employee:
     
     @classmethod
     def portfolio(cls, project):
-        cls.resume = project
-        return cls.resume
+        cls.profile = project
+        return cls.profile
 
 
 if __name__ == '__main__':
 # Creating the object
    emp_1 = Employee('Awais', 'Python Developer')
    
-#    calls the instance method 
-   print(emp_1.call())
-   
 #    calls the classmethod
    emp_1.portfolio('Github Profile')
    print(emp_1.portfolio('Github Profile'))
+
+#    calls the instance method 
+   print(emp_1.call())
+   
+
