@@ -51,7 +51,7 @@ if __name__ == '__main__':
     except ValueError as e:
       print(f"Deposit error: {e}")
       print('Amount after deposit: ', account_2.get_balance())
-    
+
     try:
       account_2.withdraw(-130)
     except ValueError as e:
