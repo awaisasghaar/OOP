@@ -22,6 +22,10 @@ if __name__ == '__main__':
     total_amount = amount_1 + amount_2
     print(f'The total amount is ', total_amount)
 
+# Output is
 
+#  Acount 1 amount is  20000 PKR, $250, 150 Pound
+# Acount 2 amount is  30000 PKR, $350, 250 Pound
+# The total amount is  50000 PKR, $600, 400 Pound
 
         
