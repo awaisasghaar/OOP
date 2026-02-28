@@ -52,7 +52,7 @@ In single Inheritance a **child class inherits from just one parent class**
 
 In Multiple Inheritance a **child class can inherite** from **more than one** **parent class**
 
-# Multilevel Inheritance
+# 3. Multilevel Inheritance
 
 In Multilevel Inheritance a class is **derived** from **another derived** class **(like a chain)**
 
