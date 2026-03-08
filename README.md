@@ -70,6 +70,11 @@ We cannot perform method overloading in Python Programming language as everythin
 In Python we can make our code have the same features as overloaded functions
 by defining a method in such way that there exist more than one way to call it.
 
+# Data Abstraction in Python
+Data abstraction is the concept of **hiding complex implementation details**
+and exposing only the essential relevent information to the user.
+
+
 
 
 
