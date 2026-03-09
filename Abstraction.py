@@ -4,7 +4,8 @@ from abc import ABC, abstractmethod
 class Person(ABC):
     def __init__(self, name):
         self.name = name
-    
+        
+    # Abstract method
     @abstractmethod
     # Must be implement by subclass
     def student(self):
