@@ -17,7 +17,7 @@ class Program():
     def add_info(self):
         # Name validation
         while True:
-            name = input("Name: ").strip()
+            name = input("Name: ")
             if len(name) < 3:
                 print("Add at least 3 characters.")
             else:
@@ -25,7 +25,7 @@ class Program():
 
         # Phone validation
         while True:
-            phone = input("Phone #: ").strip()
+            phone = input("Phone #: ")
             if not phone.isdigit():
                 print("Digits only.")
             elif len(phone) != 11:
