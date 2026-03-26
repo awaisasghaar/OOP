@@ -3,23 +3,29 @@ class library:
         self.info = {}
         
     def add_info(self):
-        while True:
-            a = input("Name: ")
-            if len(a) <= 15:
-                print(f"{a}")
-                break
-            else:
-                print(f"{a} is not valid")
-
-            b = input("Phone #: ")
-            if len(b) != 11:
-                print(f"Invlaid input")
-            else:
-                print(f"{b}")
-                break
-        self.info = {"Name": a, "Phone #": b}
-        return self.info
-
+            while True:
+                name = input("Name: ")
+                if len(name) > 20:
+                    print(f"Invalid")
+                else:
+                     print(f"{name}")
+                     self.info["Name"] = name
+                     break
+        
+            while True:
+                phone = input("Phone #: ")
+                if phone.startswith('+92-'):
+                     phone = '0' + phone[4:]
+                if len(phone) != 11 or not phone.isdigit():
+                     print("Invalid phone number.")
+                else:
+                     print(f"{phone}")
+                     self.info["Phone #"] = phone
+                     break
+                
+            print("\nDetails added successfully.")
+            return self.info
+                
 if __name__ == '__main__':
     find = library()
-    find.add_info()
+    print(find.add_info())
